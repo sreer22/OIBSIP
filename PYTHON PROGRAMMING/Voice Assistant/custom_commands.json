@@ -1,0 +1,10 @@
+{
+  "youtube": {
+    "phrases": ["open youtube", "launch youtube"],
+    "url": "https://www.youtube.com"
+  },
+  "github": {
+    "phrases": ["open github", "launch github"],
+    "url": "https://github.com"
+  }
+}

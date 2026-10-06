@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Quiz Application</string>
+    <string name="welcome_title">General Knowledge Quiz</string>
+    <string name="welcome_description">Answer 10 multiple-choice questions and see your results.</string>
+    <string name="start_quiz">Start Quiz</string>
+    <string name="next_question">Next</string>
+    <string name="finish_quiz">See Results</string>
+    <string name="restart_quiz">Restart Quiz</string>
+    <string name="select_answer">Please select an answer.</string>
+    <string name="question_progress">Question %1$d of %2$d</string>
+    <string name="quiz_results">Quiz Results</string>
+    <string name="score_format">Score: %1$d / %2$d</string>
+    <string name="correct_format">Correct answers: %1$d</string>
+    <string name="incorrect_format">Incorrect answers: %1$d</string>
+    <string name="correct_feedback">Correct!</string>
+    <string name="incorrect_feedback">Incorrect. The correct answer is highlighted.</string>
+</resources>

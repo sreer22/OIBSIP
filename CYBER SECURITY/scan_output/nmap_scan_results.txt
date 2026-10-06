@@ -1,0 +1,77 @@
+NMAP LOCALHOST SCAN RESULTS
+==========================
+
+Scope
+-----
+Target: 127.0.0.1 (IPv4 loopback on this Windows machine only)
+Scan date: 2026-10-06
+Scanner: Nmap 7.80
+Install method: winget package Insecure.Nmap
+Commands:
+  nmap 127.0.0.1
+  nmap -sV --version-light 127.0.0.1
+  nmap -O 127.0.0.1
+
+No other host or network range was scanned. The default scan checks Nmap's
+default 1,000 TCP ports; it is not a complete scan of every TCP/UDP port.
+
+Summary
+-------
+The basic scan found four open TCP ports and 996 closed default TCP ports.
+The local version scan identified Windows RPC on 135/tcp. It assigned
+tentative service labels to ports 100, 445, and 3306. The 3306/tcp response
+contains a MySQL protocol banner identifying version 8.0.46, although this
+Nmap version did not match it to a service/version record.
+
+Open ports and local process review
+-----------------------------------
+100/tcp  open  newacct? (Nmap tentative service label)
+  Local listener: SamsungFindWindowsService.exe, PID 7652, 0.0.0.0:100
+  Analysis: Nmap's port-based label does not match the local process name.
+  This appears to be a Samsung service. A process name alone does not establish
+  its exact function. Review the installed Samsung software and its vendor
+  documentation. Since it listens on all IPv4 interfaces, restrict it with
+  Windows Firewall or disable it if not needed. Risk: moderate if reachable
+  from an untrusted network; this loopback scan does not test remote reachability.
+
+135/tcp  open  msrpc (Microsoft Windows RPC, identified by -sV)
+  Local listener: svchost.exe, PID 1628, IPv4 0.0.0.0:135 and IPv6 [::]:135
+  Analysis: Microsoft's RPC Endpoint Mapper helps Windows clients locate RPC
+  services. It is a normal Windows component, but remote exposure can increase
+  attack surface. Keep Windows patched and apply firewall rules limiting RPC
+  access to trusted local networks. Risk: moderate if exposed beyond a trusted
+  network; the scan does not determine firewall reachability.
+
+445/tcp  open  microsoft-ds? (Nmap tentative service label)
+  Local listener: System (PID 4), IPv4 0.0.0.0:445 and IPv6 [::]:445
+  Analysis: This is the standard Microsoft-DS/SMB port for Windows file and
+  printer sharing. SMB can expose shared files and is a sensitive attack
+  surface. Disable file sharing when unnecessary, restrict inbound SMB to
+  trusted private networks, use least-privilege share permissions, disable
+  SMBv1, and keep Windows current. Risk: high if reachable from untrusted
+  networks; this loopback scan does not test firewall reachability.
+
+3306/tcp open  mysql? (Nmap tentative service label)
+  Local listener: mysqld.exe, PID 5976, IPv6 [::]:3306
+  Service probe banner: MySQL protocol version 8.0.46; Nmap 7.80 did not
+  produce a definitive version match.
+  Analysis: MySQL is a database server. Bind it only to the interfaces that
+  need it, use strong unique credentials and current security updates, and
+  restrict inbound traffic with Windows Firewall. Risk: high if reachable by
+  untrusted clients; this loopback scan does not test firewall reachability.
+
+OS detection
+------------
+The -O scan returned "No exact OS matches for host (If you know what OS is
+running on it, see https://nmap.org/submit/)." Network distance was 0 hops.
+The separate service scan reported Service Info: OS: Windows. Treat the -O
+result as inconclusive rather than as a definitive OS fingerprint.
+
+Interpretation and limitations
+------------------------------
+An open port means a local application accepted Nmap's probe on loopback.
+It does not prove that the service is reachable from another machine; host
+firewall rules, interface binding, routing, and network profile affect that.
+Process ownership was checked locally with Get-NetTCPConnection and
+Get-Process. No exploitation, vulnerability scripts, credentials, or external
+targets were used. Review the saved command output in scan_output\.

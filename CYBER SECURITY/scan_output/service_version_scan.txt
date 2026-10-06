@@ -1,0 +1,30 @@
+# Nmap 7.80 scan initiated Tue Oct 06 17:05:05 2026 as: "C:\\Program Files (x86)\\Nmap\\nmap.exe" -sV --version-light -oN "C:\\Users\\Sreeyakeshrajan_T\\OneDrive\\Desktop\\OIBSIP\\CYBER SECURITY\\scan_output\\service_version_scan.txt" 127.0.0.1
+Nmap scan report for 127.0.0.1
+Host is up (0.00045s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE       VERSION
+100/tcp  open  newacct?
+135/tcp  open  msrpc         Microsoft Windows RPC
+445/tcp  open  microsoft-ds?
+3306/tcp open  mysql?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port3306-TCP:V=7.80%I=2%D=10/6%Time=6AC4DCF1%P=i686-pc-windows-windows%
+SF:r(NULL,4E,"J\0\0\0\n8\.0\.46\0&\0\0\0k8fHJe=\x10\0\xff\xff\xff\x02\0\xf
+SF:f\xdf\x15\0\0\0\0\0\0\0\0\0\0kHE\\c%f\x0eMVdX\0caching_sha2_password\0"
+SF:)%r(GenericLines,73,"J\0\0\0\n8\.0\.46\0&\0\0\0k8fHJe=\x10\0\xff\xff\xf
+SF:f\x02\0\xff\xdf\x15\0\0\0\0\0\0\0\0\0\0kHE\\c%f\x0eMVdX\0caching_sha2_p
+SF:assword\0!\0\0\x01\xff\x84\x04#08S01Got\x20packets\x20out\x20of\x20orde
+SF:r")%r(GetRequest,73,"J\0\0\0\n8\.0\.46\0'\0\0\0a_k\x18\x19ig\x17\0\xff\
+SF:xff\xff\x02\0\xff\xdf\x15\0\0\0\0\0\0\0\0\0\0a!\x16,\x1a\x20\x02/j29v\0
+SF:caching_sha2_password\0!\0\0\x01\xff\x84\x04#08S01Got\x20packets\x20out
+SF:\x20of\x20order")%r(SSLSessionReq,73,"J\0\0\0\n8\.0\.46\0\(\0\0\0@Wa=K\
+SF:x14a~\0\xff\xff\xff\x02\0\xff\xdf\x15\0\0\0\0\0\0\0\0\0\0\x1bd\x074\+\x
+SF:1bIMa1gR\0caching_sha2_password\0!\0\0\x01\xff\x84\x04#08S01Got\x20pack
+SF:ets\x20out\x20of\x20order")%r(TLSSessionReq,73,"J\0\0\0\n8\.0\.46\0\)\0
+SF:\0\0V\|d\x7fh\x013w\0\xff\xff\xff\x02\0\xff\xdf\x15\0\0\0\0\0\0\0\0\0\0
+SF:jDw\r\x10#v\x01\x10\\W\x18\0caching_sha2_password\0!\0\0\x01\xff\x84\x0
+SF:4#08S01Got\x20packets\x20out\x20of\x20order");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Oct 06 17:05:13 2026 -- 1 IP address (1 host up) scanned in 8.44 seconds
