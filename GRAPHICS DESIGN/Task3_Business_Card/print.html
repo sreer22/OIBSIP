@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Morrow Double-Sided Business Card — Print</title>
+  <style>
+    @page { size: 91mm 61mm; margin: 0; }
+    html, body { margin: 0; padding: 0; }
+    .side { width: 91mm; height: 61mm; page-break-after: always; overflow: hidden; }
+    .side:last-child { page-break-after: auto; }
+    img { display: block; width: 91mm; height: 61mm; }
+  </style>
+</head>
+<body>
+  <div class="side"><img src="morrow-card-front.svg" alt="Business card front"></div>
+  <div class="side"><img src="morrow-card-back.svg" alt="Business card back"></div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title description">
+  <title id="title">Morrow climate intelligence logo — reversed</title>
+  <desc id="description">A white-only version of the Morrow geometric sunrise logo and wordmark on a transparent background, intended for dark surfaces.</desc>
+  <g stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="600" cy="373" r="112" fill="#FFFFFF" stroke="none"/>
+    <path d="M350 560V477C350 412 428 393 475 447L600 588 725 447C772 393 850 412 850 477V560"
+      fill="none" stroke-width="29"/>
+  </g>
+  <text x="600" y="766" text-anchor="middle" fill="#FFFFFF"
+    font-family="Aptos, 'Segoe UI', Arial, sans-serif" font-size="94" font-weight="700"
+    letter-spacing="19">MORROW</text>
+  <path d="M445 815H755" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round"/>
+  <text x="600" y="879" text-anchor="middle" fill="#FFFFFF"
+    font-family="Aptos, 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600"
+    letter-spacing="8">CLIMATE INTELLIGENCE</text>
+</svg>

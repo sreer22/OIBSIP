@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="91mm" height="61mm" viewBox="0 0 910 610" role="img" aria-labelledby="title description">
+  <title id="title">Morrow business card — front</title>
+  <desc id="description">Bleed-size front of a Morrow climate intelligence business card. Trim size 85 by 55 millimetres, with 3 millimetres bleed.</desc>
+  <rect width="910" height="610" fill="#153B35"/>
+  <path d="M0 0H910V100C717 162 517 164 0 113Z" fill="#1C4A41"/>
+  <circle cx="785" cy="129" r="112" fill="#214F44"/>
+  <circle cx="785" cy="129" r="72" fill="none" stroke="#2B5A4C" stroke-width="2"/>
+
+  <g stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="160" cy="164" r="57" fill="#C8E86B" stroke="none"/>
+    <path d="M91 258V225C91 197 123 188 143 211L160 231 177 211C197 188 229 197 229 225V258" fill="none" stroke-width="15"/>
+  </g>
+  <text x="269" y="233" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="61" font-weight="700" letter-spacing="10">MORROW</text>
+  <path d="M272 252H553" stroke="#C8E86B" stroke-width="4" stroke-linecap="round"/>
+  <text x="273" y="282" fill="#D7E5D9" font-family="Arial, Helvetica, sans-serif" font-size="13" font-weight="600" letter-spacing="3">CLIMATE INTELLIGENCE</text>
+
+  <path d="M57 326H853" stroke="#447265" stroke-width="1"/>
+  <text x="58" y="387" fill="#FFFFFF" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="700" letter-spacing=".3">Maya Chen</text>
+  <text x="59" y="421" fill="#C8E86B" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="600" letter-spacing=".8">Brand &amp; Partnerships Lead</text>
+  <text x="59" y="482" fill="#D7E5D9" font-family="Arial, Helvetica, sans-serif" font-size="14" letter-spacing="1.6">GOOD IDEAS FOR A BRIGHTER TOMORROW.</text>
+  <text x="853" y="518" fill="#D7E5D9" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="600" letter-spacing="2" text-anchor="end">MORROW.EARTH</text>
+
+  <g fill="none" stroke="#C8E86B" stroke-width="1" opacity=".7">
+    <path d="M0 30H24M30 0V24M886 30H910M880 0V24"/>
+    <path d="M0 580H24M30 586V610M886 580H910M880 586V610"/>
+  </g>
+</svg>

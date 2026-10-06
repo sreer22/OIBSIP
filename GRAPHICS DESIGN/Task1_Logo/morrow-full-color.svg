@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200" role="img" aria-labelledby="title description">
+  <title id="title">Morrow climate intelligence logo — full colour</title>
+  <desc id="description">A custom geometric M rising in front of a lime sunrise, above the Morrow wordmark and climate intelligence descriptor.</desc>
+  <g stroke="#153B35" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="600" cy="373" r="112" fill="#C8E86B" stroke="none"/>
+    <path d="M350 560V477C350 412 428 393 475 447L600 588 725 447C772 393 850 412 850 477V560"
+      fill="none" stroke-width="29"/>
+  </g>
+  <text x="600" y="766" text-anchor="middle" fill="#153B35"
+    font-family="Aptos, 'Segoe UI', Arial, sans-serif" font-size="94" font-weight="700"
+    letter-spacing="19">MORROW</text>
+  <path d="M445 815H755" stroke="#C8E86B" stroke-width="8" stroke-linecap="round"/>
+  <text x="600" y="879" text-anchor="middle" fill="#526B63"
+    font-family="Aptos, 'Segoe UI', Arial, sans-serif" font-size="25" font-weight="600"
+    letter-spacing="8">CLIMATE INTELLIGENCE</text>
+</svg>

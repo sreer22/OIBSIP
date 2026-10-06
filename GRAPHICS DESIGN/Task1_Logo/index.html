@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Morrow — Logo Identity</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: "Segoe UI", Arial, sans-serif;
+      color: #1b2a2a;
+      background: #f0f3f1;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 42px 22px 60px;
+    }
+
+    header,
+    main {
+      width: min(100%, 1060px);
+      margin: 0 auto;
+    }
+
+    header {
+      margin-bottom: 28px;
+    }
+
+    .eyebrow {
+      color: #477267;
+      font-size: 0.78rem;
+      font-weight: 800;
+      letter-spacing: 0.19em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 10px 0;
+      font-size: clamp(2.1rem, 6vw, 3.6rem);
+      letter-spacing: -0.055em;
+    }
+
+    header p {
+      max-width: 690px;
+      margin: 0;
+      color: #52655f;
+      line-height: 1.7;
+    }
+
+    .variants {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+      gap: 18px;
+    }
+
+    article {
+      overflow: hidden;
+      border: 1px solid #dce4df;
+      border-radius: 18px;
+      background: #fff;
+      box-shadow: 0 12px 34px rgb(25 48 42 / 7%);
+    }
+
+    .artboard {
+      display: grid;
+      min-height: 300px;
+      place-items: center;
+      padding: 12px;
+      background-color: #fff;
+      background-image:
+        linear-gradient(45deg, #edf0ed 25%, transparent 25%),
+        linear-gradient(-45deg, #edf0ed 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #edf0ed 75%),
+        linear-gradient(-45deg, transparent 75%, #edf0ed 75%);
+      background-position: 0 0, 0 9px, 9px -9px, -9px 0;
+      background-size: 18px 18px;
+    }
+
+    .artboard.dark {
+      background-color: #153b35;
+      background-image: none;
+    }
+
+    .artboard img {
+      display: block;
+      width: min(100%, 320px);
+      height: auto;
+    }
+
+    .details {
+      padding: 18px;
+    }
+
+    h2 {
+      margin: 0 0 6px;
+      font-size: 1.1rem;
+    }
+
+    .details p {
+      margin: 0 0 15px;
+      color: #627169;
+      font-size: 0.88rem;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    nav a {
+      display: inline-block;
+      padding: 9px 11px;
+      border-radius: 9px;
+      background: #183f35;
+      color: white;
+      font-size: 0.8rem;
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    nav a:hover,
+    nav a:focus-visible {
+      background: #326a5a;
+    }
+
+    .rationale {
+      margin-top: 22px;
+      padding: 20px 22px;
+      border: 1px solid #dce4df;
+      border-radius: 16px;
+      background: white;
+    }
+
+    .rationale h2 {
+      margin-bottom: 9px;
+    }
+
+    .rationale p {
+      margin: 0;
+      color: #52655f;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">Identity study · 2026</div>
+    <h1>Morrow</h1>
+    <p>A considered identity for a fictional climate-intelligence startup. The custom sunrise “M” pairs forward-looking optimism with a clear, confident wordmark.</p>
+  </header>
+
+  <main>
+    <section class="variants" aria-label="Logo variants">
+      <article>
+        <div class="artboard">
+          <img src="morrow-full-color.svg" alt="Morrow full-colour logo on transparent background">
+        </div>
+        <div class="details">
+          <h2>Full colour</h2>
+          <p>Forest green, new-day lime, and a muted descriptor.</p>
+          <nav aria-label="Full-colour logo downloads">
+            <a href="morrow-full-color.svg" download>SVG source</a>
+            <a href="morrow-full-color.png" download>1200 px PNG</a>
+          </nav>
+        </div>
+      </article>
+
+      <article>
+        <div class="artboard">
+          <img src="morrow-monochrome.svg" alt="Morrow black monochrome logo on transparent background">
+        </div>
+        <div class="details">
+          <h2>Monochrome</h2>
+          <p>Single-ink black for stamps, documents, and one-colour use.</p>
+          <nav aria-label="Monochrome logo downloads">
+            <a href="morrow-monochrome.svg" download>SVG source</a>
+            <a href="morrow-monochrome.png" download>1200 px PNG</a>
+          </nav>
+        </div>
+      </article>
+
+      <article>
+        <div class="artboard dark">
+          <img src="morrow-reversed.svg" alt="Morrow white reversed logo on transparent background">
+        </div>
+        <div class="details">
+          <h2>Reversed</h2>
+          <p>White artwork on transparent background, previewed on forest green.</p>
+          <nav aria-label="Reversed logo downloads">
+            <a href="morrow-reversed.svg" download>SVG source</a>
+            <a href="morrow-reversed.png" download>1200 px PNG</a>
+          </nav>
+        </div>
+      </article>
+    </section>
+
+    <section class="rationale">
+      <h2>LinkedIn design rationale</h2>
+      <p>Morrow is a fictional climate-intelligence startup helping communities build a brighter, lower-carbon future. The rising sun and custom geometric “M” combine optimism with forward momentum; deep forest green signals trust and sustainability, while lime adds the energy of a new day.</p>
+    </section>
+  </main>
+</body>
+</html>

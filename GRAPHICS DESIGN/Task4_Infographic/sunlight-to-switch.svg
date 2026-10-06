@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="2000" viewBox="0 0 800 2000" role="img" aria-labelledby="title description">
+  <title id="title">Sunlight to switch: how solar panels make electricity</title>
+  <desc id="description">A five-step infographic explaining photons, photovoltaic cells, DC electricity, panels and arrays, inverters, and household power, with facts sourced from the US Department of Energy and the US Energy Information Administration.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#204F44"/>
+      <stop offset="1" stop-color="#153B35"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E7F59B"/>
+      <stop offset="1" stop-color="#C8E86B"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="2000" fill="#F7F4E9"/>
+
+  <rect width="800" height="444" fill="url(#sky)"/>
+  <circle cx="686" cy="166" r="78" fill="url(#sun)"/>
+  <g stroke="#C8E86B" stroke-width="5" stroke-linecap="round">
+    <path d="M686 54V31M686 301V278M574 166H550M822 166H798M606 86L589 69M783 263L766 246M766 86L783 69M589 263L606 246"/>
+  </g>
+  <text x="55" y="70" fill="#C8E86B" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="4">FIELD GUIDE 01  ·  CLEAN ENERGY</text>
+  <text x="53" y="162" fill="#F7F4E9" font-family="Arial Black,Arial,sans-serif" font-size="70" font-weight="900" letter-spacing="-3">SUNLIGHT</text>
+  <text x="53" y="232" fill="#C8E86B" font-family="Arial Black,Arial,sans-serif" font-size="70" font-weight="900" letter-spacing="-3">TO SWITCH</text>
+  <text x="57" y="277" fill="#E1EADF" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="600">How a rooftop turns photons into usable power.</text>
+  <g aria-label="Solar panel illustration">
+    <path d="M91 324L467 324 437 408 61 408Z" fill="#F7F4E9" stroke="#C8E86B" stroke-width="3"/>
+    <path d="M100 333H455M88 359H446M76 385H437M197 327L173 404M292 327L285 404M386 327L397 404" fill="none" stroke="#72CEB2" stroke-width="3"/>
+    <path d="M248 409L232 430M353 409L369 430M199 432H405" fill="none" stroke="#F7F4E9" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <text x="511" y="360" fill="#C8E86B" font-family="Arial Black,Arial,sans-serif" font-size="22" font-weight="900">THE BIG IDEA</text>
+  <text x="511" y="390" fill="#F7F4E9" font-family="Arial,Helvetica,sans-serif" font-size="15">No moving parts needed:</text>
+  <text x="511" y="414" fill="#F7F4E9" font-family="Arial,Helvetica,sans-serif" font-size="15">light sets electrons in motion.</text>
+
+  <text x="55" y="503" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="29" font-weight="900">THE 5-STEP JOURNEY</text>
+  <text x="745" y="501" text-anchor="end" fill="#526B63" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" letter-spacing="2">LIGHT → POWER</text>
+  <path d="M86 563V1565" fill="none" stroke="#A6C59E" stroke-width="5" stroke-dasharray="4 13" stroke-linecap="round"/>
+
+  <g aria-label="Step 1: Photons arrive">
+    <circle cx="86" cy="591" r="31" fill="#C8E86B"/>
+    <text x="86" y="600" text-anchor="middle" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="23" font-weight="900">1</text>
+    <rect x="137" y="542" width="608" height="160" rx="22" fill="#FFFFFF"/>
+    <text x="164" y="581" fill="#526B63" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2">CATCH THE LIGHT</text>
+    <text x="164" y="616" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="24" font-weight="900">Photons arrive</text>
+    <text x="164" y="647" fill="#324F47" font-family="Arial,Helvetica,sans-serif" font-size="16">Sunlight is made of photons. When a solar cell</text>
+    <text x="164" y="670" fill="#324F47" font-family="Arial,Helvetica,sans-serif" font-size="16">absorbs them, their energy can free electrons.</text>
+    <g fill="#C8E86B">
+      <path d="M646 565l8 16-8 16-8-16z"/><path d="M686 585l8 16-8 16-8-16z"/><path d="M650 622l8 16-8 16-8-16z"/>
+    </g>
+    <path d="M630 589H609M670 609H605M633 645H605" stroke="#72CEB2" stroke-width="3"/>
+  </g>
+
+  <g aria-label="Step 2: The cell releases electrons">
+    <circle cx="86" cy="773" r="31" fill="#72CEB2"/>
+    <text x="86" y="782" text-anchor="middle" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="23" font-weight="900">2</text>
+    <rect x="137" y="722" width="608" height="160" rx="22" fill="#FFFFFF"/>
+    <text x="164" y="761" fill="#526B63" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2">MAKE A CURRENT</text>
+    <text x="164" y="796" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="24" font-weight="900">Electrons start flowing</text>
+    <text x="164" y="827" fill="#324F47" font-family="Arial,Helvetica,sans-serif" font-size="16">A semiconductor cell creates an electrical</text>
+    <text x="164" y="850" fill="#324F47" font-family="Arial,Helvetica,sans-serif" font-size="16">imbalance. Connect a circuit and current flows.</text>
+    <path d="M594 837C614 837 614 779 634 779S654 837 674 837 694 779 714 779" fill="none" stroke="#72CEB2" stroke-width="4"/>
+    <circle cx="634" cy="779" r="8" fill="#C8E86B"/><circle cx="674" cy="837" r="8" fill="#C8E86B"/><circle cx="714" cy="779" r="8" fill="#C8E86B"/>
+  </g>
+
+  <g aria-label="Step 3: Cells are combined into panels and arrays">
+    <circle cx="86" cy="955" r="31" fill="#C8E86B"/>
+    <text x="86" y="964" text-anchor="middle" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="23" font-weight="900">3</text>
+    <rect x="137" y="902" width="608" height="181" rx="22" fill="#FFFFFF"/>
+    <text x="164" y="941" fill="#526B63" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2">BUILD IT UP</text>
+    <text x="164" y="976" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="24" font-weight="900">Cells → panels → arrays</text>
+    <text x="164" y="1007" fill="#324F47" font-family="Arial,Helvetica,sans-serif" font-size="16">Wired-together cells form a weather-tight</text>
+    <text x="164" y="1030" fill="#324F47" font-family="Arial,Helvetica,sans-serif" font-size="16">panel. Panels connect to scale up the system.</text>
+    <g transform="translate(592 958)">
+      <rect width="108" height="75" rx="5" fill="#153B35"/>
+      <path d="M36 2V73M72 2V73M2 25H106M2 50H106" stroke="#72CEB2" stroke-width="2"/>
+      <path d="M18 79L13 89M88 79L93 89M4 91H102" stroke="#526B63" stroke-width="4" stroke-linecap="round"/>
+      <path d="M109 37H132V17H149M132 37V59H149" fill="none" stroke="#153B35" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="153" cy="17" r="6" fill="#C8E86B"/><circle cx="153" cy="59" r="6" fill="#72CEB2"/>
+    </g>
+  </g>
+
+  <g aria-label="Step 4: Inverter changes DC to AC">
+    <circle cx="86" cy="1158" r="31" fill="#72CEB2"/>
+    <text x="86" y="1167" text-anchor="middle" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="23" font-weight="900">4</text>
+    <rect x="137" y="1103" width="608" height="177" rx="22" fill="#FFFFFF"/>
+    <text x="164" y="1142" fill="#526B63" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2">MAKE IT HOME-READY</text>
+    <text x="164" y="1177" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="24" font-weight="900">An inverter flips the flow</text>
+    <text x="164" y="1208" fill="#324F47" font-family="Arial,Helvetica,sans-serif" font-size="16">Panels produce direct current (DC). An inverter</text>
+    <text x="164" y="1231" fill="#324F47" font-family="Arial,Helvetica,sans-serif" font-size="16">converts it to alternating current (AC).</text>
+    <rect x="601" y="1150" width="111" height="67" rx="12" fill="#EAEFDE"/>
+    <text x="656" y="1177" text-anchor="middle" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="20" font-weight="900">DC</text>
+    <path d="M621 1197H690" stroke="#72CEB2" stroke-width="3"/><path d="M684 1191L692 1197 684 1203" fill="none" stroke="#72CEB2" stroke-width="3"/>
+    <text x="656" y="1210" text-anchor="middle" fill="#526B63" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700">INVERTER</text>
+    <text x="656" y="1254" text-anchor="middle" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="20" font-weight="900">AC</text>
+  </g>
+
+  <g aria-label="Step 5: Electricity powers things">
+    <circle cx="86" cy="1352" r="31" fill="#C8E86B"/>
+    <text x="86" y="1361" text-anchor="middle" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="23" font-weight="900">5</text>
+    <rect x="137" y="1300" width="608" height="169" rx="22" fill="#FFFFFF"/>
+    <text x="164" y="1339" fill="#526B63" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="2">POWER YOUR DAY</text>
+    <text x="164" y="1374" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="24" font-weight="900">Use it, store it, share it</text>
+    <text x="164" y="1405" fill="#324F47" font-family="Arial,Helvetica,sans-serif" font-size="16">AC joins the electrical system for everyday use.</text>
+    <text x="164" y="1428" fill="#324F47" font-family="Arial,Helvetica,sans-serif" font-size="16">DC can also charge batteries for later.</text>
+    <g fill="none" stroke="#153B35" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M624 1404V1368L655 1345 686 1368V1412H624Z"/>
+      <path d="M645 1412V1386H663V1412M702 1360V1412M697 1370H707M697 1383H707M697 1396H707"/>
+      <path d="M732 1370H750V1400H732ZM736 1365H746"/>
+    </g>
+    <path d="M693 1388H716" stroke="#72CEB2" stroke-width="3"/>
+  </g>
+
+  <rect x="55" y="1511" width="690" height="184" rx="24" fill="#153B35"/>
+  <text x="86" y="1557" fill="#C8E86B" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" letter-spacing="3">SMALL CELL. BIGGER SYSTEM.</text>
+  <text x="84" y="1624" fill="#F7F4E9" font-family="Arial Black,Arial,sans-serif" font-size="55" font-weight="900">1–2 W</text>
+  <text x="86" y="1658" fill="#F7F4E9" font-family="Arial,Helvetica,sans-serif" font-size="17">Typical power from one PV cell.*</text>
+  <path d="M411 1547V1660" stroke="#477267" stroke-width="2"/>
+  <text x="441" y="1576" fill="#C8E86B" font-family="Arial Black,Arial,sans-serif" font-size="28" font-weight="900">&lt; 4 hairs</text>
+  <text x="442" y="1610" fill="#F7F4E9" font-family="Arial,Helvetica,sans-serif" font-size="15">PV semiconductor cells can be</text>
+  <text x="442" y="1633" fill="#F7F4E9" font-family="Arial,Helvetica,sans-serif" font-size="15">thinner than this.*</text>
+  <text x="55" y="1751" fill="#153B35" font-family="Arial Black,Arial,sans-serif" font-size="22" font-weight="900">THE SHORT VERSION</text>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700" fill="#153B35">
+    <rect x="55" y="1780" width="125" height="52" rx="16" fill="#EAEFDE"/><text x="117" y="1812" text-anchor="middle">SUNLIGHT</text>
+    <path d="M184 1806H210" stroke="#526B63" stroke-width="3"/><path d="M205 1800L213 1806 205 1812" fill="none" stroke="#526B63" stroke-width="3"/>
+    <rect x="220" y="1780" width="125" height="52" rx="16" fill="#EAEFDE"/><text x="282" y="1812" text-anchor="middle">SOLAR CELL</text>
+    <path d="M349 1806H375" stroke="#526B63" stroke-width="3"/><path d="M370 1800L378 1806 370 1812" fill="none" stroke="#526B63" stroke-width="3"/>
+    <rect x="385" y="1780" width="125" height="52" rx="16" fill="#EAEFDE"/><text x="447" y="1812" text-anchor="middle">DC POWER</text>
+    <path d="M514 1806H540" stroke="#526B63" stroke-width="3"/><path d="M535 1800L543 1806 535 1812" fill="none" stroke="#526B63" stroke-width="3"/>
+    <rect x="550" y="1780" width="125" height="52" rx="16" fill="#EAEFDE"/><text x="612" y="1812" text-anchor="middle">INVERTER</text>
+    <path d="M679 1806H705" stroke="#526B63" stroke-width="3"/><path d="M700 1800L708 1806 700 1812" fill="none" stroke="#526B63" stroke-width="3"/>
+    <rect x="715" y="1780" width="72" height="52" rx="16" fill="#C8E86B"/><text x="751" y="1812" text-anchor="middle">AC</text>
+  </g>
+  <path d="M55 1870H745" stroke="#CDD7C6" stroke-width="2"/>
+  <text x="55" y="1901" fill="#324F47" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700">SOURCES  ·  FACTS MARKED * ARE DIRECTLY CITED</text>
+  <text x="55" y="1926" fill="#526B63" font-family="Arial,Helvetica,sans-serif" font-size="11">* U.S. DOE, “Solar Photovoltaic Technology Basics,” energy.gov/cmei/systems/solar-photovoltaic-technology-basics</text>
+  <text x="55" y="1947" fill="#526B63" font-family="Arial,Helvetica,sans-serif" font-size="11">* U.S. EIA, “Photovoltaics and Electricity,” eia.gov/energyexplained/solar/photovoltaics-and-electricity.php</text>
+  <text x="55" y="1975" fill="#526B63" font-family="Arial,Helvetica,sans-serif" font-size="11">Cells and panels are modular; output varies with technology, size, and sunlight. Educational overview · 2026.</text>
+</svg>
